@@ -1,0 +1,36 @@
+.more-posts {
+    margin-top: 20px;
+  }
+  
+  .more-posts-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns for cards */
+    gap: 20px; /* Space between cards */
+  }
+  
+  .more-post {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .more-post img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .more-post h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  
+  .more-post p {
+    font-size: 1rem;
+    color: #888;
+    text-decoration: none;
+  }
+  

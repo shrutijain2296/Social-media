@@ -1,0 +1,81 @@
+/* Add CSS for the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orangered;
+    color: #fff;
+    padding: 10px;   
+  }
+  
+  .navbar-left {
+    flex: 1;
+  }
+  
+  .navbar-brand {
+    /* font-size: 1.5rem; */
+    color: #fff;
+    text-decoration: none;
+    margin-left: 60px; /* Add some margin to move it to the right */
+  }
+  
+  .navbar-center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center the icons vertically */
+  }
+  
+  .nav-icons-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 5px;
+    margin-left: 200px;
+  }
+  
+  .nav-icons-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-icon {
+    margin: 0 10px;
+    /* font-size: 1.2rem; */
+    color: #FFA500; /* Light orange color */
+    text-decoration: none;
+    transition: color 0.2s ease;
+    padding: 10px;
+  }
+  
+  .nav-icon i {
+    margin-right: 0;
+  }
+  
+  .nav-icon:hover {
+    color: orangered; /* Orangered color on hover */
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .navbar-left,
+    .navbar-center {
+      margin-bottom: 10px;
+    }
+  
+    .nav-icons-wrapper {
+      margin-bottom: 10px;
+    }
+  
+    .nav-icons-container {
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+  
